@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+input{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+p,h1,h2,h3{
+    cursor:default ;
+}
+
+input:hover{
+    filter: opacity(80%);
+}
+
+button{
+    border: 0;
+    cursor: pointer;
+    font-family: 'Chonburi', sans-serif;
+    transition: 0.5s;
+    
+}
+
+button:hover{
+    filter: opacity(80%);
+    
+}
+
+a{
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+
+
+a:hover{
+    filter: opacity(80%);
+}
+
+.Container{
+    overflow: auto;
+}
+
+.headerContainer{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerContainer a{
+    font-size: 2rem;
+    font-weight: 300;
+    color: #b4302d;
+    font-family: 'Chonburi', sans-serif;
+}
+
+
+.headerImg{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.ContainerCont{
+    background: #b4302d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 650px;
+}
+
+.ContainerCont h1{
+    color: white;
+    font-weight: 300;
+    font-family: 'Chonburi', sans-serif;
+    font-size: 8rem;
+}
+
+.ContainerCont h2{
+    color: white;
+    font-family: 'Chonburi', sans-serif;
+    font-size: 2.6rem;
+
+}
+
+.containerContatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    height: 710px;
+}
+
+.divContatos {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+   
+}
+
+.divContatos img {
+    height: 35px;
+    width: 35px;
+}
+
+.divContatos a{
+    color: black;
+    font-size: 2rem;
+    font-family: 'Caladea', sans-serif;
+}
+
+.divContatos1 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+   
+}
+
+.divContatos1 img {
+    height: 35px;
+    width: 35px;
+}
+
+.divContatos1 a{
+    color: black;
+    font-size: 2rem;
+    font-family: 'Caladea', sans-serif;
+}
+
+.containerContatos h1{
+    color: #b4302d;
+    font-family: 'Caladea', sans-serif;
+    font-weight: 600;
+    font-size: 6rem;
+   
+}
+
+
+.containerContatos2{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    
+}
+
+footer{
+    width: 100%;
+    background-color: #b31b1b;
+    color: white;
+    bottom: 0;
+    text-align: center;
+    height: 11rem;
+    font-size: 1.5rem;
+    font-family: 'Caladea', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}

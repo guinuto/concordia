@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+input{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+p,h1,h2,h3{
+    cursor:default ;
+}
+
+input:hover{
+    filter: opacity(80%);
+}
+
+button{
+    border: 0;
+    cursor: pointer;
+    font-family: 'Chonburi', sans-serif;
+    transition: 0.5s;
+    
+}
+
+button:hover{
+    filter: opacity(80%);
+    
+}
+
+a{
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+
+
+a:hover{
+    filter: opacity(80%);
+}
+
+.Container{
+    overflow: auto;
+}
+
+.headerContainer{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerContainer a{
+    font-size: 2rem;
+    font-weight: 300;
+    color: #b4302d;
+    font-family: 'Chonburi', sans-serif;
+}
+
+
+.headerImg{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.ContainerEvent{
+    background: #b4302d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 650px;
+}
+
+.ContainerEvent h1{
+    color: white;
+    font-weight: 300;
+    font-family: 'Chonburi', sans-serif;
+    font-size: 8rem;
+}
+
+.ContainerEvent h2{
+    color: white;
+    font-family: 'Chonburi', sans-serif;
+    font-size: 2.6rem;
+
+}
+
+.tituloProx{
+    font-weight: 300;
+    font-family: 'Caladea', sans-serif;
+    font-size: 4rem;
+    color: #b4302d;
+    margin-left: 4rem;
+    margin-top: 20px;
+    
+}
+
+.proxContainer{
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    justify-content: space-between;
+}
+
+.divEventos{
+    
+    height: 500px;
+    width: 500px;
+}
+
+.divEventos img{
+    
+    height: 85%;
+    width: 100%;
+}
+
+.divEventos2{
+    font-family: 'Caladea', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    padding: 0;
+    height: 500px;
+    width: 800px;
+    margin-bottom: 100px;
+    
+}
+
+.divEventos2 h1{
+    font-family: 'Chonburi',sans-serif;
+    font-size: 3rem;
+     color: #b4302d;
+     margin-bottom: 10px;
+     
+}
+
+.divEventos2 p{
+    font-size: 1.5rem;
+}
+
+.divEscrita{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Inscreva{
+    width: 70%;
+}
+
+
+
+.Inscreva button{
+    
+    color: white;
+    width: 100%;
+    text-decoration: none;
+    background: #b4302d;
+    font-size: 2rem;
+    margin-top: 60px;
+    padding: 8px;
+}
+
+.encerrado{
+    color: #b4302d;
+    text-decoration: none;
+    font-size: 3rem;
+    margin-top: 60px;
+}
+
+footer{
+    width: 100%;
+    background-color: #b31b1b;
+    color: white;
+    bottom: 0;
+    text-align: center;
+    height: 11rem;
+    font-size: 1.5rem;
+    font-family: 'Caladea', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    
+    
+}
